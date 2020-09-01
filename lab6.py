@@ -44,7 +44,7 @@ def koa(original_word):
     run_again = input('Translate another line? (yes or no): ')
 
     if run_again == 'yes':
-        original = input('Enter a word:')
+        original_word = input('Enter a word:')
         koa(original_word)
     elif run_again == 'no':
         print('k')
